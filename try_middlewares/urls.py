@@ -19,5 +19,7 @@ import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^index/', views.index, name='my-view')
+    url(r'^index/', views.index, name='one'),
+    url(r'^index2/', views.index2, name='two'),
+    url(r'^index3/', views.index3, name='three')
 ]
